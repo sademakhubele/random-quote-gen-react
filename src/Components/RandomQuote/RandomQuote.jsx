@@ -18,7 +18,7 @@ const RandomQuote = () => {
     }
 
     const twitter = ()=>{
-        window.open('https://twitter.com/intent/tweet?text=${quote.text}  ${quote.author.split(',')[0]}')
+        window.open('https://twitter.com/intent/tweet?text=${quote.text} - ${quote.author.split(',')[0]}')
     }
     
     const [quote,setQuote] = useState({
